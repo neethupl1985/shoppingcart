@@ -1,0 +1,30 @@
+[
+  {
+    "inventoryId": "INV100",
+    "item": "Chair",
+    "itemType": "CH",
+    "count": 1001,
+    "price": 100.01
+  },
+  {
+    "inventoryId": "INV101",
+    "item": "Couch",
+    "itemType": "CO",
+    "count": 1001,
+    "price": 749.99
+  },
+  {
+    "inventoryId": "INV102",
+    "item": "Table",
+    "itemType": "TB",
+    "count": 1001,
+    "price": 249.90
+  },
+  {
+    "inventoryId": "INV103",
+    "item": "Desk",
+    "itemType": "DK",
+    "count": 1001,
+    "price": 500.10
+  }
+]
