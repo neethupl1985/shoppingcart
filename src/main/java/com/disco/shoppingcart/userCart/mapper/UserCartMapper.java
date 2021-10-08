@@ -1,4 +1,4 @@
-package com.disco.shoppingcart.utils;
+package com.disco.shoppingcart.userCart.mapper;
 
 import com.disco.shoppingcart.userCart.dto.UserCart;
 import org.springframework.jdbc.core.RowMapper;

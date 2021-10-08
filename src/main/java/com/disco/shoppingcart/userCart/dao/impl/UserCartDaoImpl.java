@@ -7,7 +7,7 @@ import com.disco.shoppingcart.user.dao.UserDao;
 import com.disco.shoppingcart.userCart.dao.UserCartDao;
 import com.disco.shoppingcart.userCart.dto.UserCart;
 import com.disco.shoppingcart.userCart.response.UserCartResponse;
-import com.disco.shoppingcart.utils.UserCartMapper;
+import com.disco.shoppingcart.userCart.mapper.UserCartMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -153,6 +153,7 @@ public class UserCartDaoImpl implements UserCartDao {
                         , userCart.getInventoryId());
                 jdbcTemplate.update(sqlUserCart, itemCount, itemPrice, userCart.getUserId()
                         , userCart.getInventoryId());
+                jdbcTemplate.query("SELECT * FROM TESTDB.USERCART WHERE userId = ?", new UserCartMapper(),  userCart.getUserId());
                 msg = "Item added Successfully!";
             } else {
                 itemCount = count - userCart.getItemCount();

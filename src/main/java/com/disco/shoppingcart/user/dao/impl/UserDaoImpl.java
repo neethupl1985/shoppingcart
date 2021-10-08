@@ -4,7 +4,7 @@ import com.disco.shoppingcart.exception.ShoppingCartException;
 import com.disco.shoppingcart.user.dao.UserDao;
 import com.disco.shoppingcart.user.model.User;
 import com.disco.shoppingcart.user.model.UserResponse;
-import com.disco.shoppingcart.utils.UserMapper;
+import com.disco.shoppingcart.user.mapper.UserMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;

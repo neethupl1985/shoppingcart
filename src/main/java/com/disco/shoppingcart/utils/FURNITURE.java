@@ -1,5 +1,8 @@
 package com.disco.shoppingcart.utils;
 
+import lombok.Getter;
+
+@Getter
 public enum FURNITURE {
     CHAIR("CH"),
     COUCH("CO"),

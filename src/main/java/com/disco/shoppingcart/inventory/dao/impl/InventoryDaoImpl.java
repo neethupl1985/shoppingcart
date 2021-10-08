@@ -1,7 +1,7 @@
 package com.disco.shoppingcart.inventory.dao.impl;
 
 import com.disco.shoppingcart.exception.ShoppingCartException;
-import com.disco.shoppingcart.utils.InventoryMapper;
+import com.disco.shoppingcart.inventory.mapper.InventoryMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
