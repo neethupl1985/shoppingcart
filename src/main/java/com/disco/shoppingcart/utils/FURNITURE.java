@@ -1,4 +1,4 @@
-package com.disco.shoppingcart;
+package com.disco.shoppingcart.utils;
 
 public enum FURNITURE {
     CHAIR("CH"),

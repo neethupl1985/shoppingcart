@@ -1,6 +1,5 @@
 package com.disco.shoppingcart.utils;
 
-import com.disco.shoppingcart.FURNITURE;
 import com.disco.shoppingcart.user.model.User;
 import com.disco.shoppingcart.userCart.dto.UserCart;
 import com.disco.shoppingcart.userCart.model.Summary;
