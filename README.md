@@ -110,4 +110,5 @@ application when the application is launched.
 1) Creating an Open API specification using Swagger doc.
 2) Using a persistent database like MySql, Postgress, Oracle 
 3) Hosting the application in AWS utilizing cloud services
+4) Creating a table for Discount which will contain all discounts , current solution has all the discount in a java code.
 
